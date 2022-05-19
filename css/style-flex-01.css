@@ -4,8 +4,8 @@
 */
     .box-pai{
         display: flex;
-        /*FLEX-DIRECTIONS*/
-        flex-direction: row;
+        /*FLEX-DIRECTIONS*/ 
+        flex-direction:row;
         /* flex-direction: row-reverse; */
         /* flex-direction: column; */
         /* flex-direction: column-reverse; */
@@ -22,4 +22,22 @@
     margin: 20px;
     padding: 10px;
     text-align: center;
-  }   
+    color: #ffffff;
+  } 
+  
+  .box-child-1{
+      background-color: blueviolet;
+  }
+
+  .box-child-2{
+    background-color: chartreuse;
+}
+
+.box-child-3{
+    background-color: chocolate;
+}
+
+.box-child-4{
+    background-color: crimson;
+}
+
