@@ -6,11 +6,12 @@
 .box-pai{
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     /* flex-wrap: wrap; */
     /* justify-content: space-between; */
-
-    
 }
+
+
 
 /*
     FLEX WRAP AND NOW-WRAP
@@ -21,9 +22,7 @@
     ESTILIZANDO OS FILHOS
 */
 .box{
-  width: 10%;
-  min-width: 200px;
-  height: 200px;
+
   margin: 20px;
   padding: 10px;
   text-align: center;
