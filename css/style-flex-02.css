@@ -6,11 +6,13 @@
 .box-pai{
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     /* justify-content: space-between; */
 
     
 }
+
+
 
 /*
     FLEX WRAP AND NOW-WRAP
