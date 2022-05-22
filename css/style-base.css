@@ -27,6 +27,31 @@ h1,h2,h3{
 
 .active{
     text-decoration: none;
-    background-color: #0000ff;
+    background-color: blueviolet;
     color: #ffffff;
 }
+
+
+/* ESTILIZAR O MENU COM FLEX-BOX */
+  .cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0e0e0c;
+    color: #fff;
+    width: 100%;
+  }
+
+  .menu > a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1.86rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .menu > a:hover{
+    background-color: #ac1616;
+  }
+
+/* ESTILIZAR O MENU COM FLEX-BOX */
